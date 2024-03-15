@@ -1,3 +1,8 @@
 #! /bin/bash
 
-fmpeg -i "$1" -c:v libx264 -crf 19 -preset slow -c:a aac -strict experimental -b:a 192k -ac 2 "$2"
+if [ $# != 2 ]; then
+    echo dear friend, you forgot to try it like: twitter-compatible video-in video-out
+    exit 1
+fi
+
+ffmpeg -i "$1" -c:v libx264 -crf 19 -preset slow -c:a aac -strict experimental -b:a 192k -ac 2 "$2"
