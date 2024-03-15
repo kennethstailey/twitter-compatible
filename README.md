@@ -1,5 +1,5 @@
 Example invocation:
-
+```
 [ksta@lakshmi twitter-compatible]$ ./twitter-compatible master-speaking-completely.avi 
 dear friend, you forgot to try it like: twitter-compatible video-in video-out
 [ksta@lakshmi twitter-compatible]$ ./twitter-compatible master-speaking-completely.avi master-speaking-completely.mp4
@@ -61,3 +61,4 @@ frame= 2604 fps=203 q=-1.0 Lsize=   14310kB time=00:01:26.78 bitrate=1350.7kbits
 [libx264 @ 0x5b3961cd8d00] kb/s:1146.76
 [aac @ 0x5b3961d3eb80] Qavg: 701.765
 [ksta@lakshmi twitter-compatible]$ 
+```
