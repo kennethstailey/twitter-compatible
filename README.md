@@ -62,3 +62,7 @@ frame= 2604 fps=203 q=-1.0 Lsize=   14310kB time=00:01:26.78 bitrate=1350.7kbits
 [aac @ 0x5b3961d3eb80] Qavg: 701.765
 [ksta@lakshmi twitter-compatible]$ 
 ```
+## Demo Video
+
+https://github.com/kennethstailey/twitter-compatible/assets/160869005/ec17c0cc-8643-420a-9a86-e35a3bcfc620
+
